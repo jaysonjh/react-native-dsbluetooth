@@ -1,7 +1,7 @@
 {
   "name": "react-native-dsbluetooth",
-  "version": "0.1.5",
-  "description": "React native for Desay Bluetooth",
+  "version": "1.0.0",
+  "description": "React native for DS Bluetooth",
   "main": "index.js",
   "scripts": {
     "npm install": "npm install",
@@ -17,12 +17,20 @@
     "Bluetooth",
     "Low",
     "Energy",
-    "BLE"
+    "BLE",
+    "DS"
   ],
   "peerDependencies": {
     "react-native": "^0.58.5"
   },
-  "author": "Jaysonj",
+  "author": {
+    "name": "JaysonJ",
+    "email": "jaysonj@163.com"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/jaysonjh/react-native-dsbluetooth.git"
+  },
   "nativePackage": true
 }
