@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3E7B58A1CC2AC0600A0062D /* RNDsbluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNDsbluetooth.m */; };
+		D83AB5C42213E51C003BD3DB /* DesayBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83AB5C32213E51C003BD3DB /* DesayBluetooth.framework */; };
+		D85403E92227AB7B00A6FCD4 /* SSZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85403E82227AB7B00A6FCD4 /* SSZipArchive.framework */; };
+		D8AF6BBA221874C800D4AC7A /* RNBleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF6BB9221874C800D4AC7A /* RNBleManager.swift */; };
+		D8AF6BBE2218EB4900D4AC7A /* SafePromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF6BBD2218EB4900D4AC7A /* SafePromise.swift */; };
+		D8AF6CA3221981A400D4AC7A /* RNBleEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF6CA2221981A400D4AC7A /* RNBleEvents.swift */; };
+		D8AF6CB3221A3DE600D4AC7A /* RNBleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF6CB2221A3DE600D4AC7A /* RNBleExtensions.swift */; };
+		D8AF6CB5221A552E00D4AC7A /* RNBleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF6CB4221A552E00D4AC7A /* RNBleError.swift */; };
+		D8AF6D11221D066700D4AC7A /* RNBleSendTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF6D10221D066700D4AC7A /* RNBleSendTypes.swift */; };
+		D8AF6D13221D58A700D4AC7A /* RNBleResultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF6D12221D58A700D4AC7A /* RNBleResultHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRNDsbluetooth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNDsbluetooth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E7B5881CC2AC0600A0062D /* RNDsbluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDsbluetooth.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNDsbluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDsbluetooth.m; sourceTree = "<group>"; };
+		D83AB5C32213E51C003BD3DB /* DesayBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DesayBluetooth.framework; path = libs/DesayBluetooth.framework; sourceTree = "<group>"; };
+		D83AB5C52213E53F003BD3DB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		D85403E82227AB7B00A6FCD4 /* SSZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SSZipArchive.framework; path = Frameworks/SSZipArchive.framework; sourceTree = "<group>"; };
+		D8AF6BB8221874C700D4AC7A /* RNDsbluetooth-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNDsbluetooth-Bridging-Header.h"; sourceTree = "<group>"; };
+		D8AF6BB9221874C800D4AC7A /* RNBleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBleManager.swift; sourceTree = "<group>"; };
+		D8AF6BBD2218EB4900D4AC7A /* SafePromise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafePromise.swift; sourceTree = "<group>"; };
+		D8AF6CA2221981A400D4AC7A /* RNBleEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBleEvents.swift; sourceTree = "<group>"; };
+		D8AF6CB2221A3DE600D4AC7A /* RNBleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBleExtensions.swift; sourceTree = "<group>"; };
+		D8AF6CB4221A552E00D4AC7A /* RNBleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBleError.swift; sourceTree = "<group>"; };
+		D8AF6D10221D066700D4AC7A /* RNBleSendTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBleSendTypes.swift; sourceTree = "<group>"; };
+		D8AF6D12221D58A700D4AC7A /* RNBleResultHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBleResultHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85403E92227AB7B00A6FCD4 /* SSZipArchive.framework in Frameworks */,
+				D83AB5C42213E51C003BD3DB /* DesayBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNDsbluetooth.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				D8AF6BBF2218EB5100D4AC7A /* Utils */,
+				D8AF6CB4221A552E00D4AC7A /* RNBleError.swift */,
+				D8AF6BB9221874C800D4AC7A /* RNBleManager.swift */,
+				D8AF6CB2221A3DE600D4AC7A /* RNBleExtensions.swift */,
+				D8AF6CA2221981A400D4AC7A /* RNBleEvents.swift */,
+				D8AF6D10221D066700D4AC7A /* RNBleSendTypes.swift */,
+				B3E7B5881CC2AC0600A0062D /* RNDsbluetooth.h */,
+				B3E7B5891CC2AC0600A0062D /* RNDsbluetooth.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+				D83AB5C22213E51C003BD3DB /* Frameworks */,
+				D8AF6BB8221874C700D4AC7A /* RNDsbluetooth-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		D83AB5C22213E51C003BD3DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D85403E82227AB7B00A6FCD4 /* SSZipArchive.framework */,
+				D83AB5C52213E53F003BD3DB /* CoreBluetooth.framework */,
+				D83AB5C32213E51C003BD3DB /* DesayBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8AF6BBF2218EB5100D4AC7A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D8AF6BBD2218EB4900D4AC7A /* SafePromise.swift */,
+				D8AF6D12221D58A700D4AC7A /* RNBleResultHandler.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNDsbluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNDsbluetooth" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNDsbluetooth;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNDsbluetooth.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNDSbluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNDsbluetooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8AF6D11221D066700D4AC7A /* RNBleSendTypes.swift in Sources */,
+				D8AF6D13221D58A700D4AC7A /* RNBleResultHandler.swift in Sources */,
+				D8AF6CB5221A552E00D4AC7A /* RNBleError.swift in Sources */,
+				D8AF6CA3221981A400D4AC7A /* RNBleEvents.swift in Sources */,
+				D8AF6CB3221A3DE600D4AC7A /* RNBleExtensions.swift in Sources */,
+				D8AF6BBA221874C800D4AC7A /* RNBleManager.swift in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* RNDsbluetooth.m in Sources */,
+				D8AF6BBE2218EB4900D4AC7A /* SafePromise.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNDsbluetooth;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNDsbluetooth-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNDsbluetooth;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNDsbluetooth-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNDSbluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNDsbluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}

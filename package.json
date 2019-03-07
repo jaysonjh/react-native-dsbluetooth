@@ -1,0 +1,28 @@
+{
+  "name": "react-native-dsbluetooth",
+  "version": "0.1.5",
+  "description": "React native for Desay Bluetooth",
+  "main": "index.js",
+  "scripts": {
+    "npm install": "npm install",
+    "yarn install": "yarn install",
+    "delete the node_modules": "rm -rf node_modules",
+    "reset packager cache": "rm -fr $TMPDIR/react-* or node_modules/react-native/packager/packager.sh --reset-cache",
+    "clear watchman watches": "watchman watch-del-all",
+    "link": "react-native link"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "Bluetooth",
+    "Low",
+    "Energy",
+    "BLE"
+  ],
+  "peerDependencies": {
+    "react-native": "^0.58.5"
+  },
+  "author": "Jaysonj",
+  "license": "MIT",
+  "nativePackage": true
+}

@@ -1,0 +1,11 @@
+framework module DesayBluetooth {
+  umbrella header "DesayBluetooth.h"
+
+  export *
+  module * { export * }
+}
+
+module DesayBluetooth.Swift {
+    header "DesayBluetooth-Swift.h"
+    requires objc
+}
