@@ -15,9 +15,8 @@ Pod::Spec.new do |s|
   s.source_files  = "RNDSBluetooth/**/*.{h,m}"
   s.requires_arc = true
   s.public_header_files = 'RNDSBluetooth/**/*.h'
-  s.vendored_frameworks = 'Frameworks/DesayBluetooth.framework'
+  s.vendored_frameworks = ['Frameworks/DesayBluetooth.framework','Frameworks/SSZipArchive.framework']
   s.dependency "React"
-  s.dependency 'iOSDFULibrary', '~> 4.2'
   s.ios.deployment_target = '8.0'
 end
 

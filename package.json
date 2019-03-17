@@ -1,6 +1,6 @@
 {
   "name": "react-native-dsbluetooth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React native for DS Bluetooth",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "DS"
   ],
   "peerDependencies": {
-    "react-native": "^0.58.5"
+    "react-native": "^0.59.1"
   },
   "author": {
     "name": "JaysonJ",

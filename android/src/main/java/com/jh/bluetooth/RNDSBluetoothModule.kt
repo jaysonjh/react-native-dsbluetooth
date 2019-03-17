@@ -5,7 +5,7 @@ import com.facebook.react.modules.core.DeviceEventManagerModule
 
 const val ModuleName = "RNDsbluetooth"
 
-class RNDSBluetoothModule(private val reactContext: ReactApplicationContext?) : ReactContextBaseJavaModule(reactContext), RNBleManagerDelegate {
+class RNDSBluetoothModule(private val reactContext: ReactApplicationContext) : ReactContextBaseJavaModule(reactContext), RNBleManagerDelegate {
 
     private var bleManager: RNBleManager? = null
     override fun getName(): String {
@@ -15,7 +15,7 @@ class RNDSBluetoothModule(private val reactContext: ReactApplicationContext?) : 
     @ReactMethod
     fun initManager(enableLog: Boolean) {
         if (bleManager == null) {
-            bleManager = RNBleManager(enableLog,this.reactContext!!.applicationContext)
+            bleManager = RNBleManager(enableLog,this.reactContext.applicationContext)
         }
         bleManager?.delegate = this
     }
@@ -105,7 +105,7 @@ class RNDSBluetoothModule(private val reactContext: ReactApplicationContext?) : 
      * 发送数据给JS
      */
     override fun dispatchEvent(name: String, value: Any?) {
-        val emitter = this.reactContext?.getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter::class.java)
+        val emitter = this.reactContext.getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter::class.java)
         emitter?.emit(name,value)
     }
 

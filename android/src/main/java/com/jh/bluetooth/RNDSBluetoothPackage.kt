@@ -10,11 +10,11 @@ import com.facebook.react.bridge.JavaScriptModule
 import com.facebook.react.uimanager.ReactShadowNode
 
 class RNDSBluetoothPackage : ReactPackage {
-    override fun createViewManagers(reactContext: ReactApplicationContext?): MutableList<ViewManager<View, ReactShadowNode<*>>> {
-        return mutableListOf()
+    override fun createNativeModules(reactContext: ReactApplicationContext): MutableList<NativeModule> {
+        return mutableListOf(RNDSBluetoothModule (reactContext))
     }
 
-    override fun createNativeModules(reactContext: ReactApplicationContext?): MutableList<NativeModule> {
-        return mutableListOf(RNDSBluetoothModule (reactContext))
+    override fun createViewManagers(reactContext: ReactApplicationContext): MutableList<ViewManager<View, ReactShadowNode<*>>> {
+        return mutableListOf()
     }
 }
