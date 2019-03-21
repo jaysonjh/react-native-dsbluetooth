@@ -17,6 +17,7 @@
 		D8AF6CB5221A552E00D4AC7A /* RNBleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF6CB4221A552E00D4AC7A /* RNBleError.swift */; };
 		D8AF6D11221D066700D4AC7A /* RNBleSendTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF6D10221D066700D4AC7A /* RNBleSendTypes.swift */; };
 		D8AF6D13221D58A700D4AC7A /* RNBleResultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF6D12221D58A700D4AC7A /* RNBleResultHandler.swift */; };
+		D8C706BA22432F7300C4E1A0 /* RNDSbluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C706B922432F7300C4E1A0 /* RNDSbluetooth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNDsbluetooth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNDsbluetooth.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* RNDsbluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDsbluetooth.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNDsbluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDsbluetooth.m; sourceTree = "<group>"; };
 		D83AB5C32213E51C003BD3DB /* DesayBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DesayBluetooth.framework; path = libs/DesayBluetooth.framework; sourceTree = "<group>"; };
 		D83AB5C52213E53F003BD3DB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
@@ -46,6 +46,7 @@
 		D8AF6CB4221A552E00D4AC7A /* RNBleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBleError.swift; sourceTree = "<group>"; };
 		D8AF6D10221D066700D4AC7A /* RNBleSendTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBleSendTypes.swift; sourceTree = "<group>"; };
 		D8AF6D12221D58A700D4AC7A /* RNBleResultHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBleResultHandler.swift; sourceTree = "<group>"; };
+		D8C706B922432F7300C4E1A0 /* RNDSbluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNDSbluetooth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +79,7 @@
 				D8AF6CB2221A3DE600D4AC7A /* RNBleExtensions.swift */,
 				D8AF6CA2221981A400D4AC7A /* RNBleEvents.swift */,
 				D8AF6D10221D066700D4AC7A /* RNBleSendTypes.swift */,
-				B3E7B5881CC2AC0600A0062D /* RNDsbluetooth.h */,
+				D8C706B922432F7300C4E1A0 /* RNDSbluetooth.swift */,
 				B3E7B5891CC2AC0600A0062D /* RNDsbluetooth.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				D83AB5C22213E51C003BD3DB /* Frameworks */,
@@ -163,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8AF6D11221D066700D4AC7A /* RNBleSendTypes.swift in Sources */,
+				D8C706BA22432F7300C4E1A0 /* RNDSbluetooth.swift in Sources */,
 				D8AF6D13221D58A700D4AC7A /* RNBleResultHandler.swift in Sources */,
 				D8AF6CB5221A552E00D4AC7A /* RNBleError.swift in Sources */,
 				D8AF6CA3221981A400D4AC7A /* RNBleEvents.swift in Sources */,

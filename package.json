@@ -1,6 +1,6 @@
 {
   "name": "react-native-dsbluetooth",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "React native for DS Bluetooth",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com/jaysonjh/react-native-dsbluetooth.git"
-  },
-  "nativePackage": true
+    "url": "git+https://github.com/jaysonjh/react-native-dsbluetooth.git"
+  }
 }
