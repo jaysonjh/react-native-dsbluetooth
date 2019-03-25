@@ -5,5 +5,5 @@
 #import <React/RCTBridgeModule.h>
 #import <React/RCTEventEmitter.h>
 #import <React/RCTConvert.h>
-#import <DesayBluetooth/DesayBluetooth-Swift.h>
 #import <DesayBluetooth/DesayBluetooth.h>
+#import <DesayBluetooth/DesayBluetooth-Swift.h>

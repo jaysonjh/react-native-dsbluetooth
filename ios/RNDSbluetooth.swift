@@ -9,7 +9,7 @@
 import Foundation
 
 @objc(RNDsbluetooth)
-class RNDsbluetooth: RCTEventEmitter {
+class RNDsbluetooth: RCTEventEmitter,RNBleManagerDelegate {
     var hasListeners = false
     var bleManager: RNBleManager? = nil
     
@@ -106,9 +106,7 @@ class RNDsbluetooth: RCTEventEmitter {
         bleManager?.destroy()
         bleManager = nil
     }
-}
 
-extension RNDsbluetooth: RNBleManagerDelegate {
     func dispatchEvent(_ name: String, value: Any?) {
         if hasListeners {
             sendEvent(withName: name, body: value)
