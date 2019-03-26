@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.frameworks   = 'CoreBluetooth'
   s.requires_arc = true
   s.dependency "React"
-  s.dependency "DesayBluetooth", "2.4.2"
+  s.dependency "DesayBluetooth", "2.4.3"
 end
